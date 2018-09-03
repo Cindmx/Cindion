@@ -4,19 +4,19 @@
 #include <QWidget>
 
 namespace Ui {
-class Widget;
+class MyWidget;
 }
 
-class Widget : public QWidget
+class MyWidget : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit Widget(QWidget *parent = 0);
-    ~Widget();
+    explicit MyWidget(QWidget *parent = 0);
+    ~MyWidget();
 
 private:
-    Ui::Widget *ui;
+    Ui::MyWidget *ui;
 };
 
 #endif // WIDGET_H

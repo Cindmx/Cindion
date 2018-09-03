@@ -1,14 +1,14 @@
 #include "widget.h"
 #include "ui_widget.h"
 
-Widget::Widget(QWidget *parent) :
+MyWidget::MyWidget(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::Widget)
+    ui(new Ui::MyWidget)
 {
     ui->setupUi(this);
 }
 
-Widget::~Widget()
+MyWidget::~MyWidget()
 {
     delete ui;
 }
